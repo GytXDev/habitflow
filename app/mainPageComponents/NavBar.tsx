@@ -18,11 +18,7 @@ function NavBar() {
         {/* Logo et nom de l'application */}
         <div className="flex items-center gap-2 sm:gap-3">
           <div className="p-1 sm:p-2 rounded-md">
-            <img
-              src="/habitflow_logo.png"
-              alt="HabitFlow"
-              className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16"
-            />
+            {/* logo de l'application */}
           </div>
           <div className="text-xl sm:text-2xl md:text-2xl">
             <span className="font-bold text-default-color">Habit</span>
