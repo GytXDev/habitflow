@@ -21,12 +21,12 @@ function HabitudesContainerTop() {
             <ArrowCircleRightOutlinedIcon />
           </div>
         </div>
-        {/*  */}
-        <button className="flex gap-2 bg-default-color text-white p-3 items-center rounded-md text-sm">
-          <FontAwesomeIcon icon={faPlus} />
-          <span>Ajouter une habitude</span>
-        </button>
       </div>
+      {/*  */}
+      <button className="flex gap-2 bg-default-color text-white p-3 items-center rounded-md text-sm">
+        <FontAwesomeIcon icon={faPlus} />
+        <span>Ajouter une habitude</span>
+      </button>
     </div>
   );
 }

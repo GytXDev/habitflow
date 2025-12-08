@@ -2,9 +2,9 @@
 
 :root {
   --background-end-rgb: 255, 255, 255;
-  --default-color: #4a90e2;
-  --text-default: #4a90e2;
-  --hover-color: #357abd;
+  --default-color: #4285f4;
+  --text-default: #4285f4;
+  --hover-color: #3367d6;
 }
 
 @media (prefers-color-scheme: dark) {

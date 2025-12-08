@@ -1,8 +1,8 @@
 export const defaultColor = {
-  default: "#4a90e2",
-  hover: "#357abd",
-  50: "#e8f5e9",
-  100: "#e3f2fd",
-  text: "#4a90e2",
+  default: "#4285F4",
+  hover: "#3367d6",
+  50: "#e8f0fe",
+  100: "#d2e3fc",
+  text: "#4285F4",
   white: "#ffffff",
 };

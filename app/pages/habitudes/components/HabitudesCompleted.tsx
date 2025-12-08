@@ -1,26 +1,31 @@
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Checkbox, IconButton } from "@mui/material";
 import React from "react";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import { defaultColor } from "@/app/colors";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-export default function HabitudesContainerMiddle() {
+function HabitudesCompleted() {
   return (
-    <div className="p-3">
-      <HabitCard />
+    <div className="bg-white mt-7 p-8 rounded-md">
+      <span className="font-bold text-lg mb-2">Habitudes terminées</span>
+      <div className="mt-4 opacity-50">
+        <HabitCard />
+        <HabitCard />
+      </div>
     </div>
   );
 }
 
+export default HabitudesCompleted;
+
 function HabitCard() {
   return (
-    // Element pour afficher une habitude
     <div className="flex p-3 items-center justify-between">
-      {/* 1. checkbox */}
       <Checkbox
+        checked={true}
         icon={<RadioButtonUncheckedIcon />}
         checkedIcon={<CheckCircleIcon />}
         sx={{
